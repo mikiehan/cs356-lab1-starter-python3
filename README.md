@@ -42,7 +42,7 @@ On your off campus local machine run the following command in the terminal.
 ```
 local$ ssh -L 8888:localhost:8888 {YourCSUserName}@{cshost}.cs.utexas.edu
 ```
-You need to replace {YourCSUserName} and {cshost} accordingly, where {cshost} is the machine that you run the jupyter-notebook command in Step 1. 
+You need to replace {YourCSUserName} and {cshost} accordingly, where {cshost} is the machine that you used in Step 1. 
 
 ### Step 3.
 On your local machine, open up a browser and type the URL that you obtained in Step 1 after running jupyter-notebook command including the token string.
