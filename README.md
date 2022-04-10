@@ -31,10 +31,11 @@ cshost$ cd {YourFolderName}
 cshost$ git clone https://github.com/cs356-sp22/lab1-{YourTeamName}
 cshost$ jupyter-notebook --no-browser
 ```
-With the ls command above you should see jupter notebook running on the CS machine and it will output a URL that looks like below.
+With the command above you should see jupter notebook running on the CS machine and it will output a URL that looks like below.
 ```
 http://localhost:8888/?token={SomeLongString}
 ```
+Copy this URL to a clipboard. 
 
 ### Step 2.
 On your local machine (off campus) run the following command in the terminal.
