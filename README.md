@@ -24,7 +24,7 @@ By **final** deadline
 
 ## Getting Started
 
-### Step 1.
+#### Step 1.
 ssh into a CS machine and run the following command.
 ```
 cshost$ cd {YourFolderName}
@@ -37,14 +37,14 @@ http://localhost:8888/?token={SomeLongString}
 ```
 Copy this URL to a clipboard. 
 
-### Step 2.
+#### Step 2.
 On your off campus local machine run the following command in the terminal.
 ```
 local$ ssh -L 8888:localhost:8888 {YourCSUserName}@{cshost}.cs.utexas.edu
 ```
 You need to replace {YourCSUserName} and {cshost} accordingly, where {cshost} is the machine that you used in Step 1. 
 
-### Step 3.
+#### Step 3.
 On your local machine, open up a browser and type the URL that you obtained in Step 1 after running jupyter-notebook command including the token string.
 
 This should open to the Jupyter notebook file selection window.  Juypter notebook is actually running on port
@@ -84,4 +84,4 @@ file. Push the updated files to the team repository.
 #### Acknowledgement
 This assignment is adopted from [Nick Feamster](https://computernetworksbook.com/resources.html).
 
-# cs356-lab1-starter-python3
+
