@@ -31,10 +31,6 @@ cshost$ cd {YourFolderName}
 cshost$ git clone https://github.com/{CourseCode-SemesterYear}/lab2-{YourTeamName}
 cshost$ jupyter notebook --no-browser
 ```
-If the last command fails with "Command 'jupyter-notebook' not found...", then you can install jupyter with the following command.
-```
-cshost$ pip install jupyter
-```
 After running the jupyter notebook command, you should see jupter notebook running on the CS machine and it will output a URL that looks like below.
 ```
 http://localhost:8888/?token={SomeLongString}
