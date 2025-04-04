@@ -35,7 +35,7 @@ If the last command fails with "Command 'jupyter-notebook' not found...", then y
 ```
 cshost$ pip install jupyter
 ```
-After running the jupyter command, you should see jupter notebook running on the CS machine and it will output a URL that looks like below.
+After running the jupyter notebook command, you should see jupter notebook running on the CS machine and it will output a URL that looks like below.
 ```
 http://localhost:8888/?token={SomeLongString}
 ```
