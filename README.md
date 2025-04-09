@@ -29,6 +29,7 @@ ssh into a CS machine and run the following command.
 ```
 cshost$ cd {YourFolderName}
 cshost$ git clone https://github.com/{CourseCode-SemesterYear}/lab2-{YourTeamName}
+cshost$ export PATH=$PATH:/lusr/bin
 cshost$ jupyter notebook --no-browser
 ```
 After running the jupyter notebook command, you should see jupter notebook running on the CS machine and it will output a URL that looks like below.
